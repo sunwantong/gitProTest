@@ -19,4 +19,14 @@ git push origin labelCntBranch  (和远程仓库同步，并在远程仓库建�
 //提交文件到远程labelCntBranch分支  
 git add .  
 git commit - 'aa'  
-git push origin labelCntBranch
+git push origin labelCntBranch  
+
+//clone远程仓库，添加新的东西，然后提交(针对主分支)  
+git clone https://github.com/sunwantong/gitProTest.git  
+进入clone下来的文件夹  
+git add 新的东西  
+git commit -m 'cc'  
+git remote add origin https://github.com/sunwantong/test_pro.git  
+git push origin master//提交更新到远程分支
+
+
