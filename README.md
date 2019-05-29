@@ -26,7 +26,7 @@ git clone https://github.com/sunwantong/gitProTest.git
 进入clone下来的文件夹  
 git add 新的东西  
 git commit -m 'cc'  
-git remote add origin https://github.com/sunwantong/gitProTest.git  
+git remote add origin https://github.com/sunwantong/gitProTest.git//本地和远程关联  
 git push origin master//提交更新到远程分支  
 
 //clone远程仓库，添加新的东西，然后提交(针对branch分支)  
