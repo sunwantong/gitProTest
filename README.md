@@ -14,7 +14,7 @@ git push origin master//push到远程仓库
 
 //本地建立分支,并将新的分支同步到远程仓库  
 git checkout -b  labelCntBranch  (本地建立新的分支并切换到新的分支，labelCntBranch为新的分支名)  
-git push origin labelCntBranch  (和远程仓库同步，并在远程仓库建立labelCntBranch分支)  
+git push origin labelCntBranch  (和远程仓库同步，并在远程仓库建立labelCntBranch分支,如果该远程分支不存在，则会被新建)  
 
 //提交文件到远程labelCntBranch分支  
 git add .  
