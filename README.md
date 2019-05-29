@@ -3,7 +3,7 @@ git 分支提交描述：
 git init 初始化  
 git add README.md  
 git commit -m "first commit"  
-git remote add origin https://github.com/sunwantong/test_pro.git //和远程仓库关联起来
+git remote add origin https://github.com/sunwantong/test_pro.git //和远程仓库关联起来  
 git push -u origin master  //初次提交加 -u参数  
 
 
