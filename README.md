@@ -36,6 +36,13 @@ git checkout -b labelCntBranch //创建本地分支
 git pull origin labelCntBranch //本地分支与远程分支相关联  
 git add 新的东西  
 git commit -m 'cc'    
-git push origin labelCntBranch//提交更新到远程分支
+git push origin labelCntBranch//提交更新到远程分支  
 
+git常用命令：  
+git log  
+git reset --soft versionCode  
+git reset --hard versionCode  
+
+git status  
+工作区区域(working)  =add>  索引区域(index file)  =commit>  提交区域(commit)
 
