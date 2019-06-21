@@ -46,3 +46,12 @@ git reset --hard versionCode
 git status  
 工作区区域(working)  =add>  索引区域(index file)  =commit>  提交区域(commit)
 
+
+版本回退:  
+ git log  
+ git reset --soft 6af9459c72aa7c2a82758ec875e9476c096e5df3  
+ cola  (利用cola提交,commit)  
+ git push origin swt  (不会成功,需要强制push)   
+ git push origin swt -f   (强制push)  
+
+
