@@ -37,7 +37,8 @@ git pull origin labelCntBranch //本地分支与远程分支相关联
 git add 新的东西  
 git commit -m 'cc'    
 git push origin labelCntBranch//提交更新到远程分支   
-git clone -b 要clone的分支名 仓库地址 //clone远程仓库从分支
+git clone -b 要clone的分支名 仓库地址 //clone远程仓库从分支  
+git push origin --delete Chapater6   //如上所示，使用命令,可以删除远程分支Chapater6   
   
 git常用命令：  
 git log  
