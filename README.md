@@ -44,7 +44,7 @@ git常用命令：
 git log  
 git reset --soft versionCode  
 git reset --hard versionCode  
-
+git rest命令详解：https://www.jianshu.com/p/cbd5cd504f14  
 git status  
 工作区区域(working)  =add>  索引区域(index file)  =commit>  提交区域(commit)
 
