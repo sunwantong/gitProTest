@@ -22,7 +22,7 @@ git commit - 'aa'
 git push origin labelCntBranch  
 
 //clone远程仓库，添加新的东西，然后提交(针对主分支)  
-git clone https://github.com/sunwantong/gitProTest.git  
+git clone https://github.com/sunwantong/gitProTest.git   
 进入clone下来的文件夹  
 git add 新的东西  
 git commit -m 'cc'  
@@ -31,9 +31,9 @@ git push origin master//提交更新到远程分支
 
 //clone远程仓库，添加新的东西，然后提交(针对branch分支)  
 git clone https://github.com/sunwantong/gitProTest.git    （没有-b表示默认clone master分支）
-进入clone下来的文件夹  
+  进入clone下来的文件夹  
 git checkout -b labelCntBranch //创建本地分支  
-git pull origin labelCntBranch //本地分支与远程分支相关联  (取远程分支并分化一个新分支： $ git checkout -b mybranch origin/mybranch)
+git pull origin labelCntBranch //本地分支与远程分支相关联  (取远程分支并分化一个新分支：git checkout -b mybranch origin/mybranch)  
 git add 新的东西  
 git commit -m 'cc'    
 git push origin labelCntBranch//提交更新到远程分支   
