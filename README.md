@@ -30,7 +30,7 @@ git remote add origin https://github.com/sunwantong/gitProTest.git//本地和远
 git push origin master//提交更新到远程分支  
 
 //clone远程仓库，添加新的东西，然后提交(针对branch分支)  
-git clone https://github.com/sunwantong/gitProTest.git  
+git clone https://github.com/sunwantong/gitProTest.git    （没有-b表示默认clone master分支）
 进入clone下来的文件夹  
 git checkout -b labelCntBranch //创建本地分支  
 git pull origin labelCntBranch //本地分支与远程分支相关联  
