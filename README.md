@@ -55,5 +55,7 @@ git status
  cola  (利用cola提交,commit)  
  git push origin swt  (不会成功,需要强制push)   
  git push origin swt -f   (强制push)  
+ 
+ ![image](https://github.com/sunwantong/gitProTest/blob/master/QQ%E5%9B%BE%E7%89%8720200726114314.jpg)
 
 
